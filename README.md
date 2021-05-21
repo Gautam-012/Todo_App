@@ -1,1 +1,3 @@
-# Todo_App
+# Todo App
+
+*You can add items and delete*

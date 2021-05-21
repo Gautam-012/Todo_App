@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        margin: 1rem 4rem;
+        background-color: #9bfeff;
+      }
+
+      .top {
+        border: 2px #f4f4ff solid;
+        height: 30vh;
+        content: "";
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #06fdff;
+      }
+
+      button {
+        outline: none;
+        border: none;
+        padding: 1rem 1rem;
+        background-color: #001919;
+        color: white;
+        border-radius: 10px;
+      }
+
+      .namelist li {
+        content: "";
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        border: 2px black solid;
+      }
+
+      input {
+        padding: 0.5rem 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="top">To Remember!</h1>
+
+    <ul class="namelist">
+      <li><span>Item 1</span> <i class="fas fa-trash-alt"></i></li>
+      <li><span>Item 2</span> <i class="fas fa-trash-alt"></i></li>
+      <li><span>Item 3</span> <i class="fas fa-trash-alt"></i></li>
+    </ul>
+
+    <div class="bottom">
+      <input class="list-input" type="text" placeholder="Text here to add..." />
+      <button class="a dd">Click to add</button>
+    </div>
+
+    <script src="dom.js"></script>
+  </body>
+</html>

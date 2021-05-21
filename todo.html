@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        border: 2px grey solid;
+        margin: 5rem 2rem;
+        padding: 1rem 0.5rem;
+      }
+
+      .to {
+        content: "";
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+        background: rgb(4, 129, 4);
+        color: white;
+
+        height: 20vh;
+      }
+      .items li {
+        content: "";
+        display: flex;
+        border: 2px grey solid;
+        justify-content: space-between;
+        padding: 10px;
+        margin: 4px 0;
+      }
+      .btn {
+        padding-top: 0.5 rem;
+      }
+
+      button {
+        border: none;
+        background-color: black;
+        color: white;
+        padding: 0.2rem 0.5rem;
+        margin-bottom: 1rem;
+      }
+      button:hover {
+        background: green;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="to">
+        <h1>To Do Things</h1>
+        <input id="filter" placeholder="Search Items.." />
+      </div>
+
+      <div class="btn">
+        <h4>Add things</h4>
+        <form class="addform">
+          <input type="text" placeholder="Add items" />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+
+      <div class="items">
+        <ul>
+          <li>Item 1 <i class="fas fa-trash-alt"></i></li>
+          <li>Item 2 <i class="fas fa-trash-alt"></i></li>
+          <li>Item 3 <i class="fas fa-trash-alt"></i></li>
+        </ul>
+      </div>
+    </div>
+    <script src="do.js"></script>
+  </body>
+</html>

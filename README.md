@@ -1,3 +1,3 @@
 # Todo App
 
-*You can add items and delete*
+*You can add and delete items*
